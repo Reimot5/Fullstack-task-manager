@@ -40,10 +40,10 @@ docker compose exec backend npm run test
 ```
 
 ## 📋 Scripts útiles
-| Acción                 | Comando                                |
-| ---------------------- | -------------------------------------- |
-| Construir contenedores | `docker-compose up --build`            |
-| Parar contenedores     | `docker-compose down`                  |
-| Correr tests backend   | `docker-compose exec api npm run test` |
+| Acción                 | Comando                                    |
+| ---------------------- | ------------------------------------------ |
+| Construir contenedores | `docker-compose up --build -d`             |
+| Parar contenedores     | `docker-compose down`                      |
+| Correr tests backend   | `docker-compose exec backend npm run test` |
 
 Creado por Tomas Rubiño
